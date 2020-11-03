@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
+    /**  Navbar   **/
+    .nav__container {
+        height: 120px;
+        width: auto;
+    }
+
+    .nav__outside, .nav__icon {
+        margin-top: 30px;
+    }
+}
