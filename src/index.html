@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altitude</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tablet.css"
+        media="(min-width: 768px) and (orientation: portrait) and (min-height: 1024px)" />
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 767px)" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <!-- begin nav -->
-    <nav class="blue-grey darken-3">
-        <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large right"><i
-                    class="material-icons">menu</i></a>
-            <ul class="left">
-                <li><a href="#">ALTITUDE</a></li>
-                <li><a href="#">BY PIXELARITY</a></li>
+    <nav class="nav__container">
+        <div class="nav-wrapper nav__wrapper">
+            <a href="#" data-target="mobile-demo" class=" sidenav-trigger show-on-large right"><i
+                    class="nav__icon material-icons">menu</i></a>
+            <ul class="left nav__outside">
+                <li><a class="nav__out1" href="#">ALTITUDE</a></li>
+                <li class="nav__out2 hide-on-small-only">|</li>
+                <li><a class="nav__out3 hide-on-small-only" href="#">BY PIXELARITY</a></li>
             </ul>
         </div>
-
-        <ul class="sidenav collapsible" id="mobile-demo">
+        <ul class="nav__inside sidenav collapsible" id="mobile-demo">
             <li><a href="#">Home</a></li>
             <li><a href="#">Generic</a></li>
             <li><a href="#">Elements</a></li>
-            <li><button class="waves-effect waves-light btn">SING UP</button></li>
-            <li><button class="waves-effect waves-light btn">LOG IN</button></li>
+            <li><button class="nav__butonUp waves-effect waves-light btn">SING UP</button></li>
+            <li><button class="nav__butonIn waves-effect waves-light btn">LOG IN</button></li>
         </ul>
     </nav>
     <!-- end nav -->

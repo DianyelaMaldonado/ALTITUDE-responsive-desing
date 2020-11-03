@@ -1,23 +1,45 @@
-body {box-sizing: border-box;
+body {
+box-sizing: border-box;
 margin:0;
 padding:0;
+font-family: 'Raleway', sans-serif;
 }
 
 html {
-font-size:62.5%;
+ font-size: 62.5%;   
 }
 
 :root {
     --white:#FFFFFF;
     --gray-body:#575B72;
+    --soft-gray:#b0b0b0;
     --olive-green:#69C7AD;
     --gray-darken:#4e5266;
     --green-darken:#4CABB1;
     --soft-mustard-yellow:#FED586;
 }
 
-.sidenav{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
+/**  Navbar   **/
+.nav__container {
+    background: var(--gray-darken);
+    height: 155px;
+    width: auto;
+}
+
+.nav__outside, .nav__icon {
+    margin-top: 47px;
+}
+
+.nav__out1 {
+    font-size: 1.5rem;
+}
+
+.nav__out2 {
+    font-size: 2rem;
+    color: var(--soft-gray);  
+}
+
+.nav__out3 {
+    font-size: 1.3rem;
+    color: var(--soft-gray);
 }

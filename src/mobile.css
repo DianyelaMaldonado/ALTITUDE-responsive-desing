@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) {
+    /**  Navbar   **/
+    .nav__container {
+        height: 60px;
+        width: auto;
+    }
+
+    .nav__outside, .nav__icon {
+        margin-top: 4px;
+    }
+}
