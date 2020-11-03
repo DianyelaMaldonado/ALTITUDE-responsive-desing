@@ -1,0 +1,23 @@
+body {box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+html {
+font-size:62.5%;
+}
+
+:root {
+    --white:#FFFFFF;
+    --gray-body:#575B72;
+    --olive-green:#69C7AD;
+    --gray-darken:#4e5266;
+    --green-darken:#4CABB1;
+    --soft-mustard-yellow:#FED586;
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
