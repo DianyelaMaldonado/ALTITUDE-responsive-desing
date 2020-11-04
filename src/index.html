@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="tablet.css"
         media="(min-width: 768px) and (orientation: portrait) and (min-height: 1024px)" />
-    <link rel="stylesheet" href="mobile.css" media="(max-width: 767px)" />
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 1281px)" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,8 +18,10 @@
     <!-- begin nav -->
     <nav class="nav__container">
         <div class="nav-wrapper nav__wrapper">
-            <a href="#" data-target="mobile-demo" class=" sidenav-trigger show-on-large right"><i
-                    class="nav__icon material-icons">menu</i></a>
+            <a href="#" data-target="mobile-demo" class=" nav__sidenav_t sidenav-trigger show-on-large right">
+                <span class="nav__tex">MENU</span>
+                <i class="nav__icon material-icons right">menu</i>
+            </a>
             <ul class="left nav__outside">
                 <li><a class="nav__out1" href="#">ALTITUDE</a></li>
                 <li class="nav__out2 hide-on-small-only">|</li>
@@ -29,8 +31,10 @@
         <ul class="nav__inside sidenav collapsible" id="mobile-demo">
             <li> <i class="material-icons nav__icon-close">close</i></li>
             <li class="nav__li-text1"><a href="#">Home</a></li>
-            <li class="nav__li-text2"><a href="#">Generic</a></li>
-            <li class="nav__li-text3"><a href="#">Elements</a></li>
+            <li class="nav__li-text2"><a href="https://pixelarity.com/items/demos/altitude/cyan/generic.html"
+                    target="_blank">Generic</a></li>
+            <li class="nav__li-text3"><a href="https://pixelarity.com/items/demos/altitude/cyan/elements.html"
+                    target="_blank">Elements</a></li>
             <li><button class="nav__butonUp waves-effect waves-light">SING UP</button></li>
             <li><button class="nav__butonIn waves-effect waves-light ">LOG IN</button></li>
         </ul>

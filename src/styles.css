@@ -19,36 +19,73 @@ html {
     --green-darken:#4CABB1;
     --soft-white:#ffffff55;
     --soft-mustard-yellow:#FED586;
+    --soft-white-transparent:#eeeeee21;
 }
 
-/**  Navbar outside   **/
+
+/**  Navbar outside  **/
 .nav__container {
     width: auto;
-    height: 155px;
+    height: 60px;
     background: var(--gray-darken);
 }
 
-.nav__outside, .nav__icon {
-    margin-top: 47px;
-}
-
-.nav__out1 {
-    font-size: 1.5rem;
-}
-
-.nav__out1:hover,.nav__out3:hover{
-    background-color: rgba(0, 0, 0, 0)
-}
-
-.nav__out2 {
-    font-size: 2rem;
-    color: var(--soft-gray);  
-}
-
-.nav__out3 {
-    font-size: 1.3rem;
-    color: var(--soft-gray);
-}
+/* .nav__outside, .nav__icon {
+    margin-top: 4px;
+} */
 
 /**  Navbar inside  **/
- 
+ul.nav__inside {
+    background-color: var(--green-darken);
+}
+
+.nav__icon-close {
+    text-align: end;
+    margin-right: 10px;
+    color: var(--soft-white);
+}
+
+ul.nav__inside li a {
+padding: 0;
+color: var(--white);
+font-weight:300;
+}
+
+.nav__li-text1, .nav__li-text2 {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--soft-white);
+}
+
+.nav__li-text3 { 
+    width: 90%;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.nav__butonUp, .nav__butonIn {
+    width: 91%;
+    margin: 4%;
+    height: 40px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--white);
+    border-radius: 22px;
+    background: var(--soft-green);
+}
+
+.nav__butonUp {
+    border: none;
+    background: var(--soft-green);
+}
+
+.nav__butonIn {
+    background: var(--green-darken);
+    border: 1px solid var(--soft-white);
+}
+
+ul#mobile-demo {
+    border: 0;
+}
+
