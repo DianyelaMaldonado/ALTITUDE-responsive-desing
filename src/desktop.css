@@ -1,0 +1,68 @@
+@media (min-width: 1281px) {
+    /**  Navbar outside   **/
+    .nav__container {
+        width: auto;
+        height: 155px;
+        background: var(--gray-darken);
+    }
+
+    .nav__wrapper {
+        margin: 0 180px 0 180px;
+    }
+
+    a.nav__sidenav_t.sidenav-trigger.show-on-large.right {
+        margin: 47px 0 0 0;
+        font-size: 1.5rem;
+    }
+
+    .nav__outside {
+        margin-top: 47px;
+    }
+
+    .nav__out1 {
+        font-size: 1.5rem;
+    }
+
+    .nav__out1:hover,.nav__out3:hover{
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    .nav__out2 {
+        font-size: 2rem;
+        color: var(--soft-gray);
+    }
+
+    .nav__out3 {
+        font-size: 1.3rem;
+        color: var(--soft-gray);
+    }
+
+    /**  Navbar inside  **/
+    ul.nav__inside {
+        width: 20%;
+    }
+
+    .nav__butonUp:hover {
+        background-color: var(--soft-white);
+    }
+
+    .nav__butonIn:hover {
+        background-color: var(--soft-white-transparent);
+    }
+
+    ul.nav__inside li a {
+        font-size: 1.2rem;
+    }
+
+    .nav__butonUp, .nav__butonIn {
+        font-weight: 600;
+    }
+
+    .nav__li-text3 { 
+        margin-left: 20px;
+    }
+
+    ul.nav__inside li a:hover {
+        background-color: rgba(0, 0, 0, 0)
+    }
+}
