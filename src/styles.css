@@ -1,8 +1,8 @@
 body {
-box-sizing: border-box;
-margin:0;
-padding:0;
-font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -23,11 +23,10 @@ html {
 
 /**  Navbar outside   **/
 .nav__container {
-    background: var(--gray-darken);
-    height: 155px;
     width: auto;
+    height: 155px;
+    background: var(--gray-darken);
 }
-
 
 .nav__outside, .nav__icon {
     margin-top: 47px;
@@ -51,44 +50,5 @@ html {
     color: var(--soft-gray);
 }
 
- /**  Navbar inside  **/
- ul.nav__inside {
-    background-color: var(--green-darken);
- }
-
- ul.nav__inside li a {
-    color: var(--white);
- }
-
-.nav__li-text1, .nav__li-text2 {
-    border-bottom: 1px solid;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.nav__li-text3 { 
-    margin-bottom: 20px;
-    width: 90%;
-}
-
-.nav__butonUp {
-    border-radius: 22px;
-    width: 80%;
-    height: 40px;
-    background: var(--soft-green);
-    border: none;
-    color: var(--white);
-    font-weight: bold;
-    margin: 0 auto;
-}
-
-.nav__butonIn {
-    border-radius: 22px;
-    width: 80%;
-    height: 40px;
-    background: var(--green-darken);
-    border: 1px solid var(--soft-white);
-    color: var(--white);
-    font-weight: bold;
-    margin: 0 auto;
-}
+/**  Navbar inside  **/
+ 

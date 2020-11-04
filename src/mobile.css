@@ -1,8 +1,8 @@
 @media only screen and (max-width: 767px) {
     /**  Navbar outside  **/
     .nav__container {
-        height: 60px;
         width: auto;
+        height: 60px;
     }
 
     .nav__outside, .nav__icon {
@@ -10,6 +10,57 @@
     }
 
     /**  Navbar inside  **/
-
-   
+    ul.nav__inside {
+        background-color: var(--green-darken);
+     }
+    
+     .nav__icon-close {
+         text-align: end;
+         margin-right: 10px;
+         color: var(--soft-white);
+     }
+    
+     ul.nav__inside li a {
+        padding: 0;
+        color: var(--white);
+        font-weight:300;
+     }
+    
+    .nav__li-text1, .nav__li-text2 {
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+        border-bottom: 1px solid var(--soft-white);
+    }
+    
+    .nav__li-text3 { 
+        width: 90%;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .nav__butonUp, .nav__butonIn {
+        width: 91%;
+        margin: 4%;
+        height: 40px;
+        font-weight: 400;
+        font-size: 0.9rem;
+        color: var(--white);
+        border-radius: 22px;
+        background: var(--soft-green);
+    }
+    
+    .nav__butonUp {
+        border: none;
+        background: var(--soft-green);
+    }
+    
+    .nav__butonIn {
+        background: var(--green-darken);
+        border: 1px solid var(--soft-white);
+    }
+    
+    ul#mobile-demo {
+        border: 0;
+    }
 }
