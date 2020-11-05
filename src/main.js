@@ -8,22 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
     slickSlider();
 });
 
-
-
-  
-
 function slickSlider() {
-    $('.cs__slider-wrapper').slick(
-      {
-        dots: true,
-        infinite: true,
-        fade: true,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        autoplay:true,
-        adaptiveHeight:true,
-        autoplaySpeed:3000,
-      }
-    );
+  $('.cs__slider-initial').slick(
+    {
+      dots: false,
+      infinite: true,
+      fade: true,
+      cssEase: 'linear',
+      arrows:false,
+      autoplay:true,
+      autoplaySpeed:2000,
+    }
+  );
 }
-
