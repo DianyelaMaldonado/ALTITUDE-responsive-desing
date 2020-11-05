@@ -18,6 +18,7 @@ html {
     --soft-green:#4ac4cbe0;
     --green-darken:#4CABB1;
     --soft-white:#ffffff55;
+    --soft-two-green:#4ac4cb85;
     --soft-mustard-yellow:#FED586;
     --soft-white-transparent:#eeeeee21;
 }
@@ -101,4 +102,41 @@ ul#mobile-demo {
 
 .col.s12.m12.l8.cs_out-styles-default {
     padding: 0;
+}
+
+/** cards sed lorem and amet magna **/
+
+.cs__first-card, .cs__second-card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cs_card-1-content{
+    background-color: var(--green-darken);
+    color: var(--white);
+    width: 100%;
+    height: auto;
+}
+
+.cs_card-2-content {
+    background-color: var(--olive-green);
+    color: var(--white);
+    width: 100%;
+    height: auto;
+}
+
+.cs__title-1,.cs__title-2 {
+    font-size: 1.7rem;
+    margin-bottom: 29px;
+}
+
+.cs__text-cotent-1,.cs__text-cotent-2 {
+    margin-bottom: 44px;
+}
+
+a.cs__text-cotent-1, a.cs__text-cotent-2 {
+    border-radius: 22px;
+    background: var(--soft-two-green);
+    box-shadow:none;
 }
