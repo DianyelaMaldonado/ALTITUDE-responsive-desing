@@ -30,10 +30,6 @@ html {
     background: var(--gray-darken);
 }
 
-/* .nav__outside, .nav__icon {
-    margin-top: 4px;
-} */
-
 /**  Navbar inside  **/
 ul.nav__inside {
     background-color: var(--green-darken);
@@ -89,3 +85,20 @@ ul#mobile-demo {
     border: 0;
 }
 
+/** CS Slider initial **/
+
+.cs-sliderIn-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cs__al-container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+} 
+
+.col.s12.m12.l8.cs_out-styles-default {
+    padding: 0;
+}

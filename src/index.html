@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="tablet.css"
         media="(min-width: 768px) and (orientation: portrait) and (min-height: 1024px)" />
     <link rel="stylesheet" href="desktop.css" media="(min-width: 1281px)" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 </head>
 
 <body>
@@ -42,7 +43,31 @@
     <!-- end nav -->
 
     <!-- begin initial conten and slider section -->
-    <section>
+    <section class="cs__container">
+        <div class="cs__al-container">
+            <div class="row">
+                <div class="col s12 m12 l8 cs_out-styles-default">
+                    <div class="cs__slider-initial">
+                        <fragment>
+                            <img src="./assets/images/img-01.jpg" alt="image of a woman use the computer"
+                                class="cs-sliderIn-img">
+                        </fragment>
+                        <fragment>
+                            <img src="./assets/images/img-02.jpg" alt="image of somebdy use the keyboard of computer"
+                                class="cs-sliderIn-img">
+                        </fragment>
+                        <fragment>
+                            <img src="./assets/images/img-03.jpg" alt="image a lot of books in a library"
+                                class="cs-sliderIn-img">
+                        </fragment>
+                    </div>
+                </div>
+                <div class="cs__cards-wrapper col s12 m12 l4">
+                    <p>aqui van las cards</p>
+                </div>
+            </div>
+        </div>
+
     </section>
     <!-- end initial conten and slider section -->
 
@@ -73,6 +98,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

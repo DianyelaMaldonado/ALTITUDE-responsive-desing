@@ -7,7 +7,7 @@
     }
 
     .nav__wrapper {
-        margin: 0 180px 0 180px;
+        margin:0px 291px 0 142px;
     }
 
     a.nav__sidenav_t.sidenav-trigger.show-on-large.right {
@@ -65,4 +65,11 @@
     ul.nav__inside li a:hover {
         background-color: rgba(0, 0, 0, 0)
     }
+
+    /** CS Slider initial **/
+    .cs__al-container{
+        width: 85%;
+        max-width:85%;
+        margin: 0 auto;
+    } 
 }
