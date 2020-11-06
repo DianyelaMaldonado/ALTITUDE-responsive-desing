@@ -24,4 +24,27 @@
         max-width:90%;
         margin: 0 auto;
     } 
+
+    /** cards sed lorem and amet magna **/
+    .cs__container{
+        background: var(--gray-darken)
+    }
+
+    
+    a.cs__text-cotent-1{
+        border-radius: 22px;
+        background: var(--soft-two-green);
+        box-shadow:none;
+        width: 34%;
+        margin: 0 auto;
+    }
+
+    a.cs__text-cotent-2 {
+        border-radius: 22px;
+        background: var(--grass-green);
+        box-shadow:none;
+        width: 34%;
+        margin: 0 auto;
+    }
+
 }
