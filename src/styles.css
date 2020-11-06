@@ -147,3 +147,7 @@ a.cs__text-cotent-2 {
     background: var(--grass-green);
     box-shadow:none;
 }
+
+.cs__helper_font {
+    font-weight: 500;
+}
