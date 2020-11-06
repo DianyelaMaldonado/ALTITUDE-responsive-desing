@@ -19,6 +19,7 @@ html {
     --soft-green:#4ac4cbe0;
     --green-darken:#4CABB1;
     --soft-white:#ffffff55;
+    --hover-soft-green:#50bdc4;
     --soft-two-green:#4ac4cb85;
     --soft-mustard-yellow:#FED586;
     --soft-white-transparent:#eeeeee21;
@@ -94,6 +95,10 @@ ul#mobile-demo {
     height: auto;
 }
 
+.col.s12.m12.l7.cs_out-styles-default {
+    padding: 0;
+}
+
 
 .cs__al-container{
     width: 100%;
@@ -106,6 +111,10 @@ ul#mobile-demo {
 }
 
 /** cards sed lorem and amet magna **/
+
+.cs__container{
+    background: var(--gray-darken)
+}
 
 .cs__first-card, .cs__second-card {
     padding: 30px;
@@ -140,13 +149,13 @@ ul#mobile-demo {
     margin-bottom: 44px;
 }
 
-a.cs__text-cotent-1{
+div a.cs__more-1 {
     border-radius: 22px;
     background: var(--soft-two-green);
     box-shadow:none;
 }
 
-a.cs__text-cotent-2 {
+a.cs__more-2 {
     border-radius: 22px;
     background: var(--grass-green);
     box-shadow:none;

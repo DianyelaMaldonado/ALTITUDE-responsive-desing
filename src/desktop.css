@@ -7,7 +7,7 @@
     }
 
     .nav__wrapper {
-        margin:0px 291px 0 142px;
+        margin:0px 147px 0 133px;
     }
 
     a.nav__sidenav_t.sidenav-trigger.show-on-large.right {
@@ -71,5 +71,79 @@
         width: 85%;
         max-width:85%;
         margin: 0 auto;
+    }
+
+    .cs-sliderIn-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /** cards sed lorem and amet magna **/
+    .row.cs_desktop {
+        margin: 0;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .cs__title-1, .cs__title-2 {
+        font-size: 2.2rem;
+    }
+
+    .cs__text-cotent-1, .cs__text-cotent-2 {
+        font-size: 1.2rem;
+        color: var(--white);
+        font-weight: lighter;
+    }
+    a.cs__more-1,  a.cs__more-2 {
+        width: 19%;
+        margin: 0 auto;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cs__more-1, .cs__more-2{
+    color: var(--white);
+    }
+
+    a.cs__more-1:hover{
+        color:var(--hover-soft-green);
+        box-shadow:none;
     } 
+
+    a.cs__more-2:hover{
+        background:var(--hover-soft-green--);
+        color: var(--white);
+        box-shadow:none;
+    } 
+
+    a.cs__text-cotent-2 {
+        background: var(--grass-green);
+        width: 23%;
+        margin: 0 auto;
+    }
+
+    .row.cs__row {
+        position: relative;
+        height: 100%;
+    }
+
+    .col.s12.m6.l12.cs_card-1-content {
+        position: absolute;
+        height: 50%;
+        top: 0;
+        left: 0;
+    }
+
+    .col.s12.m6.l12.cs_card-2-content {
+        position: absolute;
+        top: 50%;
+        height: 50%;
+        left: 0;
+        width: 100%;
+    }
+    .cs__first-card, .cs__second-card {
+        width: 100%;
+    }
 }
