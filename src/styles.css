@@ -14,6 +14,7 @@ html {
     --gray-body:#575B72;
     --soft-gray:#b0b0b0;
     --olive-green:#69C7AD;
+    --grass-green:#8ed4c0;
     --gray-darken:#4e5266;
     --soft-green:#4ac4cbe0;
     --green-darken:#4CABB1;
@@ -135,8 +136,14 @@ ul#mobile-demo {
     margin-bottom: 44px;
 }
 
-a.cs__text-cotent-1, a.cs__text-cotent-2 {
+a.cs__text-cotent-1{
     border-radius: 22px;
     background: var(--soft-two-green);
+    box-shadow:none;
+}
+
+a.cs__text-cotent-2 {
+    border-radius: 22px;
+    background: var(--grass-green);
     box-shadow:none;
 }
