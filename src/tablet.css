@@ -6,7 +6,7 @@
     }
 
     .nav__wrapper {
-    margin: 0px 68px 0 59px;
+        margin: 0px 37px 0 28px;
     }
 
     .nav__outside{
@@ -23,5 +23,24 @@
         width: 90%;
         max-width:90%;
         margin: 0 auto;
-    } 
+    }
+
+    /** cards sed lorem and amet magna **/
+        
+    a.cs__more-1 {
+        border-radius: 22px;
+        background: var(--soft-two-green);
+        box-shadow:none;
+        width: 34%;
+        margin: 0 auto;
+    }
+
+    a.cs__more-2  {
+        border-radius: 22px;
+        background: var(--grass-green);
+        box-shadow:none;
+        width: 34%;
+        margin: 0 auto;
+    }
+
 }
