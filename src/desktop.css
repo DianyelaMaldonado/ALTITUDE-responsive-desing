@@ -96,9 +96,9 @@
     }
     a.cs__more-1,  a.cs__more-2 {
         width: 19%;
-        margin: 0 auto;
         height: 50px;
         display: flex;
+        margin: 0 auto;
         flex-direction: column;
         justify-content: center;
     }
@@ -108,42 +108,44 @@
     }
 
     a.cs__more-1:hover{
-        color:var(--hover-soft-green);
         box-shadow:none;
+        color:var(--hover-soft-green);
     } 
 
     a.cs__more-2:hover{
-        background:var(--hover-soft-green--);
-        color: var(--white);
         box-shadow:none;
+        color: var(--white);
+        background:var(--hover-soft-green--);
     } 
 
     a.cs__text-cotent-2 {
-        background: var(--grass-green);
         width: 23%;
         margin: 0 auto;
+        background: var(--grass-green);
     }
 
     .row.cs__row {
-        position: relative;
         height: 100%;
+        position: relative;
     }
 
     .col.s12.m6.l12.cs_card-1-content {
-        position: absolute;
-        height: 50%;
         top: 0;
         left: 0;
+        height: 50%;
+        position: absolute;
     }
 
     .col.s12.m6.l12.cs_card-2-content {
-        position: absolute;
+        left: 0;
         top: 50%;
         height: 50%;
-        left: 0;
         width: 100%;
+        position: absolute;
     }
     .cs__first-card, .cs__second-card {
         width: 100%;
+        padding: 93px;
     }
+
 }
