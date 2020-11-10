@@ -3,6 +3,7 @@ body {
     padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    background-color: var(--gray-darken);
 }
 
 html {
@@ -18,7 +19,7 @@ html {
     --olive-green:#69C7AD;
     --gray-darken:#787878;
     --grass-green:#8ed4c0;
-    --gray-darken:#4e5266;
+    --gray-darken:#4e5266;  
     --soft-green:#4ac4cbe0;
     --green-darken:#4CABB1;
     --soft-white:#ffffff55;
@@ -117,8 +118,13 @@ ul#mobile-demo {
 .cs__container{
     background: var(--gray-darken)
 }
+
+.cs__al-container{
+    background:var(--white);
+}
+
 .lid__container {
-    margin-top: 50px;
+    background: var(--gray-body);
 }
 
 .cs__first-card,
@@ -178,6 +184,8 @@ h3.lid__title {
     font-weight: 600;
     font-size: 1.5rem;
     color: var(--black);
+    margin: 0;
+    padding-top: 50px;
 }
 
 .lid__subtitle {

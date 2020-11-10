@@ -147,5 +147,27 @@
         width: 100%;
         padding: 93px;
     }
+    /** lorem ipsum dolor **/
+    .lid__text-content-1, .lid__text-content-2 {
+        border-style: none;
+    }
 
+    .lid__first-card,
+    .lid__second-card{
+         border-right: 1px solid var(--line-gray) ;
+    }
+
+    .lid__icons-circle {
+        padding: 44px;
+        border-radius: 74px;
+        margin-bottom: 43px;
+    }
+
+    .lid__description {
+        font-size: 1.1rem;
+    }
+
+    .lid__text-content-2, .lid__text-content-3 {
+        font-size: 1.1rem;
+    } 
 }
