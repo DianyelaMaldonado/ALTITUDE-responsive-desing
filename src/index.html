@@ -10,8 +10,9 @@
         media="(min-width: 768px) and (orientation: portrait) and (min-height: 1024px)" />
     <link rel="stylesheet" href="desktop.css" media="(min-width: 1281px)" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/15c81c71f9.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="helpers.css">
 
 </head>
 
@@ -21,7 +22,7 @@
         <div class="nav-wrapper nav__wrapper">
             <a href="#" data-target="mobile-demo" class=" nav__sidenav_t sidenav-trigger show-on-large right">
                 <span class="nav__tex">MENU</span>
-                <i class="nav__icon material-icons right">menu</i>
+                <i class="fa fa-bars nav__icon material-icons right" aria-hidden="true"></i>
             </a>
             <ul class="left nav__outside">
                 <li><a class="nav__out1" href="#">ALTITUDE</a></li>
@@ -30,7 +31,8 @@
             </ul>
         </div>
         <ul class="nav__inside sidenav collapsible" id="mobile-demo">
-            <li> <i class="material-icons nav__icon-close">close</i></li>
+            <li><i class="material-icons nav__icon-close fa fa-times" aria-hidden="true"></i></li>
+
             <li class="nav__li-text1"><a href="#">Home</a></li>
             <li class="nav__li-text2"><a href="https://pixelarity.com/items/demos/altitude/cyan/generic.html"
                     target="_blank">Generic</a></li>
@@ -45,7 +47,7 @@
     <!-- begin initial conten and slider section -->
     <section class="cs__container">
         <div class="cs__al-container">
-            <div class="row cs_desktop">
+            <div class="row cs_desktop row__none">
                 <div class="col s12 m12 l7 cs_out-styles-default">
                     <div class="cs__slider-initial">
                         <fragment>
@@ -90,10 +92,42 @@
     <!-- end initial conten and slider section -->
 
     <!-- begin lorem ipsum dolor  section -->
-    <section>
+    <section class="lid__container">
+        <div class="cs__al-container center-align">
+            <h3 class="lid__title">LOREM IPSUM DOLOR</h3>
+            <h4 class="lid__subtitle">Sed egestas adipiscing</h4>
+            <div class="row row__none">
+                <div class="col s12 m12 l4 lid__first-card">
+                    <span class="lid__icons-circle">
+                        <i class="fa fa-camera fa-2x lid__icon-1" aria-hidden="true"></i>
+                    </span>
+                    <div class="lid__text-content-1">
+                        <h3 class="lid__tittle-text">ULTRICES ALIQUAM</h3>
+                        <span class="lid__description">Lorem ipsum dolor sit amet nullam feugiat tempus</span>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4 lid__second-card">
+                    <span class="lid__icons-circle">
+                        <i class="fa fa-paper-plane fa-2x lid__icon-2" aria-hidden="true"></i>
+                    </span>
+                    <div class="lid__text-content-2">
+                        <h3 class="lid__tittle-text">LOREM SED NULLAM</h3>
+                        <span class="lid__description"></span>Lorem ipsum dolor sit amet nullam feugiat tempus</span>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4 lid__third-card">
+                    <span class="lid__icons-circle">
+                        <i class="fa fa-envelope fa-2x lid__icon-3" aria-hidden="true"></i>
+                    </span>
+                    <div class="lid__text-content-3">
+                        <h3 class="lid__tittle-text">ULTRICES ALIQUAM</h3>
+                        <span class="lid__description"></span>Lorem ipsum dolor sit amet nullam feugiat tempus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- end lorem ipsum dolor  section -->
-
     <!-- begin slider magna tempus  section -->
     <section>
     </section>
