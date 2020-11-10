@@ -170,4 +170,12 @@
     .lid__text-content-2, .lid__text-content-3 {
         font-size: 1.1rem;
     } 
+    /* slider magna tempus  section */
+    .slimt__img {
+        width: 74%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+
 }

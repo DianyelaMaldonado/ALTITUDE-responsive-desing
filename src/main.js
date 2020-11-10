@@ -23,14 +23,22 @@ function slickSlider() {
   );
 }
 
+
+
+
+
 function slimtSlick() {
   $('.slimt_slick').slick(
     {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       fade: true,
       cssEase: 'linear',
+      arrows:true,
+      slidesToShow:1,
+      prevArrow: $('.prev'),
+      nextArrow: $('.next'),
     }
   );
 }
