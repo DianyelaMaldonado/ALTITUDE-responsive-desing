@@ -175,10 +175,6 @@ a.cs__more-2 {
     background: var(--grass-green);
 }
 
-.cs__helper_font {
-    font-weight: 500;
-}
-
 /** lorem ipsum dolor **/
 h3.lid__title {
     font-weight: 600;
@@ -233,5 +229,30 @@ h3.lid__title {
 .lid__text-content-3 {
     padding: 0 20px 50px 20px;
 }
+/* slider magna tempus  section */
+.slimt__img {
+    width: 100%;
+    height: auto;
+}
 
+.slimt_p {
+    padding: 20px;
+    background: var(--soft-mustard-yellow);
+}
 
+.slimt__card-one,
+.slimt__card-two,
+.slimt__card-three {
+    background: var(--white);
+    margin-bottom: 20px;
+}
+
+h3.center.slimt__title {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.slimt__text {
+    padding: 10px 20px 45px;
+    font-size: 1.2rem
+}

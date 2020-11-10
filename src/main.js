@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     var instances = M.Sidenav.init(elems, options);
     slickSlider();
+    slimtSlick();
 });
 
 function slickSlider() {
@@ -18,6 +19,18 @@ function slickSlider() {
       arrows:false,
       autoplay:true,
       autoplaySpeed:1000,
+    }
+  );
+}
+
+function slimtSlick() {
+  $('.slimt_slick').slick(
+    {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
     }
   );
 }
