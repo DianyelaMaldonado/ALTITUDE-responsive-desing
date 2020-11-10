@@ -25,22 +25,21 @@
         margin: 0 auto;
     }
 
-    /** cards sed lorem and amet magna **/
-        
+    /** cards sed lorem and amet magna **/ 
     a.cs__more-1 {
         border-radius: 22px;
-        background: var(--soft-two-green);
-        box-shadow:none;
         width: 34%;
         margin: 0 auto;
+        box-shadow:none;
+        background: var(--soft-two-green);
     }
 
     a.cs__more-2  {
-        border-radius: 22px;
-        background: var(--grass-green);
-        box-shadow:none;
         width: 34%;
         margin: 0 auto;
+        box-shadow:none;
+        border-radius: 22px;
+        background: var(--grass-green);
     }
 
 }

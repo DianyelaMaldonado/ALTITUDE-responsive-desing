@@ -17,7 +17,7 @@ function slickSlider() {
       cssEase: 'linear',
       arrows:false,
       autoplay:true,
-      autoplaySpeed:2000,
+      autoplaySpeed:1000,
     }
   );
 }

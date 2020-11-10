@@ -3,6 +3,7 @@ body {
     padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    background-color: var(--gray-darken);
 }
 
 html {
@@ -10,12 +11,15 @@ html {
 }
 
 :root {
+    --black:#000000;
     --white:#FFFFFF;
     --gray-body:#575B72;
     --soft-gray:#b0b0b0;
+    --line-gray:#b3adad8c;
     --olive-green:#69C7AD;
+    --gray-darken:#787878;
     --grass-green:#8ed4c0;
-    --gray-darken:#4e5266;
+    --gray-darken:#4e5266;  
     --soft-green:#4ac4cbe0;
     --green-darken:#4CABB1;
     --soft-white:#ffffff55;
@@ -24,7 +28,6 @@ html {
     --soft-mustard-yellow:#FED586;
     --soft-white-transparent:#eeeeee21;
 }
-
 
 /**  Navbar outside  **/
 .nav__container {
@@ -50,7 +53,8 @@ color: var(--white);
 font-weight:300;
 }
 
-.nav__li-text1, .nav__li-text2 {
+.nav__li-text1,
+.nav__li-text2 {
     padding: 0;
     width: 90%;
     margin: 0 auto;
@@ -63,7 +67,8 @@ font-weight:300;
     margin-bottom: 10px;
 }
 
-.nav__butonUp, .nav__butonIn {
+.nav__butonUp,
+.nav__butonIn {
     width: 91%;
     margin: 4%;
     height: 40px;
@@ -89,7 +94,6 @@ ul#mobile-demo {
 }
 
 /** CS Slider initial **/
-
 .cs-sliderIn-img {
     max-width: 100%;
     height: auto;
@@ -102,8 +106,8 @@ ul#mobile-demo {
 
 .cs__al-container{
     width: 100%;
-    max-width: 100%;
     margin: 0 auto;
+    max-width: 100%;
 } 
 
 .col.s12.m12.l8.cs_out-styles-default {
@@ -111,12 +115,20 @@ ul#mobile-demo {
 }
 
 /** cards sed lorem and amet magna **/
-
 .cs__container{
     background: var(--gray-darken)
 }
 
-.cs__first-card, .cs__second-card {
+.cs__al-container{
+    background:var(--white);
+}
+
+.lid__container {
+    background: var(--gray-body);
+}
+
+.cs__first-card,
+.cs__second-card {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -127,40 +139,99 @@ ul#mobile-demo {
 }
 
 .cs_card-1-content{
-    background-color: var(--green-darken);
-    color: var(--white);
     width: 100%;
     height: auto;
+    color: var(--white);
+    background-color: var(--green-darken);
 }
 
 .cs_card-2-content {
-    background-color: var(--olive-green);
-    color: var(--white);
     width: 100%;
     height: auto;
+    color: var(--white);
+    background-color: var(--olive-green);
 }
 
-.cs__title-1,.cs__title-2 {
+.cs__title-1,
+.cs__title-2 {
     font-size: 1.5rem;
     margin-bottom: 29px;
 }
 
-.cs__text-cotent-1,.cs__text-cotent-2 {
+.cs__text-cotent-1,
+.cs__text-cotent-2 {
     margin-bottom: 44px;
 }
 
 div a.cs__more-1 {
+    box-shadow:none;
     border-radius: 22px;
     background: var(--soft-two-green);
-    box-shadow:none;
 }
 
 a.cs__more-2 {
+    box-shadow:none;
     border-radius: 22px;
     background: var(--grass-green);
-    box-shadow:none;
 }
 
 .cs__helper_font {
     font-weight: 500;
 }
+
+/** lorem ipsum dolor **/
+h3.lid__title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--black);
+    margin: 0;
+    padding-top: 50px;
+}
+
+.lid__subtitle {
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-bottom: 52px;
+}
+
+.lid__first-card,
+.lid__second-card,
+.lid__third-card {
+    margin-bottom: 50px;
+}
+
+.lid__icons-circle {
+    padding: 20px;
+    border-radius: 42px;
+    display: inline-block;
+    border: 1px solid var(--line-gray);
+}
+
+.lid__icon-1 {
+   color: var(--green-darken);
+}
+
+.lid__icon-2 {
+    color: var(--olive-green);
+}
+
+.lid__icon-3 {
+    color: var(--soft-mustard-yellow);
+}
+
+.lid__tittle-text {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.lid__text-content-1,
+.lid__text-content-2 {
+    padding: 0 20px 50px 20px;
+    border-bottom: 1px solid var(--line-gray);
+}
+
+.lid__text-content-3 {
+    padding: 0 20px 50px 20px;
+}
+
+
