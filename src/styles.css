@@ -243,16 +243,17 @@ h3.lid__title {
 .slimt__card-one,
 .slimt__card-two,
 .slimt__card-three {
-    background: var(--white);
     margin-bottom: 20px;
+    background: var(--white);
 }
 
 h3.center.slimt__title {
-    font-size: 1.3rem;
     padding: 20px;
+    font-size: 1.3rem;
 }
 
 .slimt__text {
+    font-size: 1.1rem;
     padding: 10px 20px 45px;
-    font-size: 1.1rem
 }
+

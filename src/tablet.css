@@ -9,7 +9,7 @@
         margin: 0px 37px 0 28px;
     }
 
-    .nav__outside{
+    .nav__outside {
         margin-top: 30px;
     }
     
@@ -19,7 +19,7 @@
     }
 
     /** CS Slider initial **/
-    .cs__al-container{
+    .cs__al-container {
         width: 90%;
         max-width:90%;
         margin: 0 auto;
@@ -41,5 +41,4 @@
         border-radius: 22px;
         background: var(--grass-green);
     }
-
 }
