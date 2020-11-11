@@ -23,22 +23,29 @@ function slickSlider() {
   );
 }
 
-
-
-
-
 function slimtSlick() {
   $('.slimt_slick').slick(
     {
       dots: false,
       infinite: true,
       speed: 500,
-      fade: true,
-      cssEase: 'linear',
-      arrows:true,
       slidesToShow:1,
       prevArrow: $('.prev'),
       nextArrow: $('.next'),
+      responsive: [
+        {
+          breakpoint: 10000000,
+           settings: {
+           fade: true,
+           cssEase: 'linear',
+           }
+        },
+        {
+          breakpoint: 767,
+         settings: "unslick"
+
+        }
+      ]
     }
   );
 }
