@@ -170,4 +170,63 @@
     .lid__text-content-2, .lid__text-content-3 {
         font-size: 1.1rem;
     } 
+    
+    /* slider magna tempus  section */
+    .slimt__img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .slimt__text {
+        padding: 10px 91px 45px;
+    }
+
+    .slimt_p {
+        padding: 100px 170px;
+    }
+    
+    .slimt__arrows {
+        position: relative;
+    }
+
+    .slimt__prev {
+        top: 50%;
+        left: 11%;
+        border: 0;
+        z-index: 2;
+        width: 50px;
+        height: 43px;
+        background: none;
+        position: absolute;
+        color: var(--soft-white);
+    }
+
+    .slimt__next {
+        top: 50%;
+        border: 0;
+        right: 11%;
+        z-index: 2;
+        width: 50px;
+        height: 43px;
+        background: none;
+        position: absolute;
+        background-color: none;
+        color: var(--soft-white);
+    }
+
+    i.fa.fa-chevron-left.fa-4x.prev.slick-arrow:hover,
+    i.fa.fa-chevron-right.fa-4x.next.slick-arrow:hover  {
+        cursor: pointer;
+        color: var(--white);
+    }
+
+    button.slimt__prev.hide-on-small-only:focus,
+    button.slimt__next.hide-on-small-only:focus {
+        outline: none;
+        background-color: inherit;
+    }
+
+  
 }
