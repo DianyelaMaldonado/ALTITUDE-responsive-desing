@@ -103,4 +103,11 @@
         background-color: inherit;
     }
 
+    /** sed tempus aliquam section **/
+    a.sta__more-1, a.sta__more-2 {
+        width: 17%;
+        height: auto;
+        max-width: 17%;
+    }
+
 }

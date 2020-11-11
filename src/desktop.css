@@ -228,5 +228,75 @@
         background-color: inherit;
     }
 
-  
+    /** sed tempus aliquam section **/
+    .sta__title.center {
+        margin: 0;
+        font-size: 2.1rem;
+        padding-top: 90px;
+        color: var(--gray-darken);
+    }
+    .sta__wrapper-one {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .col.s12.m12.l8.cs__p {
+        padding: 0;
+    }
+    
+    .col.s12.m12.l4.cs__p2 {
+        padding: 0;
+    }
+
+    a.sta__more-1 {
+        width: 30%;
+        height: auto;
+        max-width: 30%;
+        box-shadow: none;
+        font-size: 0.8rem;
+        margin-bottom: 51px;
+    }
+
+    a.sta__more-1:hover,
+    a.sta__more-2:hover {
+        background-color: var(--gray-body);
+        color: var(--white);
+    }
+
+    a.sta__more-2 {
+        width: 15%;
+        height: auto;
+        max-width: 15%;
+        box-shadow: none;
+        font-size: 0.8rem;
+        margin-bottom: 51px;
+    }
+
+    .card__one-wrapper {
+        display: flex;
+        padding: 33px;
+        box-shadow: none;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card__two-wrapper {
+        padding: 8px;
+        display: flex;
+        box-shadow: none;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sta__image-one,
+    .sta__image-two {   
+     box-shadow: none;
+    }
+
+    .sta__all-cards{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .sta__pb {
+        padding-bottom: 6%;
+    }
 }
