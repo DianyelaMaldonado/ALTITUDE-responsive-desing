@@ -1,3 +1,7 @@
 .row__none {
     margin: 0;
 }
+
+.cs__helper_font {
+    font-weight: 500;
+}
