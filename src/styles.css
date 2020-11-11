@@ -229,7 +229,7 @@ h3.lid__title {
 .lid__text-content-3 {
     padding: 0 20px 50px 20px;
 }
-/* slider magna tempus  section */
+/** slider magna tempus  section **/
 .slimt__img {
     width: 100%;
     height: auto;
@@ -255,5 +255,56 @@ h3.center.slimt__title {
 .slimt__text {
     font-size: 1.1rem;
     padding: 10px 20px 45px;
+}
+
+/** sed tempus aliquam section **/
+.sta__title.center {
+    margin: 0;
+    font-size: 1.5rem;
+    padding-top: 54px;
+}
+
+.sta__image-one,
+.sta__image-two {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+.sta__subtitle {
+    margin: 0;
+    font-size: 1.1rem;
+    padding: 16px 0 37px;
+}
+
+.sta__title-card.center {
+    font-size: 1.4rem;
+}
+
+.card__one-wrapper,
+.card__two-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+a.sta__more-1,
+a.sta__more-2 {
+    width: 80%;
+    height: auto;
+    max-width: 80%;
+    box-shadow: none;
+    font-size: 0.9rem;
+    border-radius: 22px;
+    color: var(--white);
+    margin-bottom: 51px;
+    background-color: var(--gray-body);
+}
+
+.sta__text {
+    padding: 20px;
 }
 
