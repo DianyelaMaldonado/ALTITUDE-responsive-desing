@@ -148,14 +148,20 @@
 
     /** footer  **/
     .ftr__container {
-        margin-top: 10%;
         width: 90%;
         max-width: 90%;
         margin: 0 auto;
     }
 
+    .ftr__wrapper {
+        margin-top: 10%;
+    }
+
+    .col.s12.m6.l3.ftr__p0 {
+        padding: 0%;
+    }
+
     .col.s12.m6.l3.ftr__lines {
-        padding: 0;
         border-right: 1px solid gray;
     }
 
@@ -166,5 +172,4 @@
     .ftr__contact {
         padding: 4% 5% 6%;
     }
-
 }
