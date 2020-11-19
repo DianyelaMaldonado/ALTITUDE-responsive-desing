@@ -120,7 +120,7 @@
         flex-direction: row;
     }
 
-  div input.gn__label.valign-wrapper {
+    div input.gn__label.valign-wrapper {
         padding: 0% 30px;
         width: 90%;
         height: 50px;
@@ -145,6 +145,26 @@
         margin-bottom: 10%;
         font-size: 1.2rem;
     }
-    
+
+    /** footer  **/
+    .ftr__container {
+        margin-top: 10%;
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .col.s12.m6.l3.ftr__lines {
+        padding: 0;
+        border-right: 1px solid gray;
+    }
+
+    a.ftr__a.frt__bor-3.ftr__bor-t{
+        border-bottom: none;
+    }
+
+    .ftr__contact {
+        padding: 4% 5% 6%;
+    }
 
 }

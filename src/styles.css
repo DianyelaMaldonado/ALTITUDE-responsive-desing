@@ -388,7 +388,9 @@ div input.gn__label.valign-wrapper {
     color: var(--soft-gray-text);
 }
 
-.ftr__a.frt__bor {
+.ftr__a.frt__bor-1,
+.ftr__a.frt__bor-2,
+.ftr__a.frt__bor-3 {
     padding-bottom: 12%;
     border-bottom: 1px solid var(--line-gray);
 }
