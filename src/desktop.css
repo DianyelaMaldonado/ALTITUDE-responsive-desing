@@ -299,4 +299,47 @@
     .sta__pb {
         padding-bottom: 6%;
     }
+
+    /** get notified  section  **/
+
+    .gn__wrapper {
+        padding: 5% 28%;
+    }
+
+    .gn__title {
+        padding-top: 0%;
+        font-size: 1.8rem;
+    }
+
+    .gn__form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div input.gn__label.valign-wrapper {
+        padding: 0% 4%;
+        width: 90%;
+        height: 40px;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        border-top-left-radius: 47px;
+        border-bottom-left-radius: 47px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .gn__input {
+        width: 29%;
+        height: 40px;
+        margin-bottom: 0;
+        font-size: 1rem;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .gn__subtitle {
+        margin-bottom: 8%;
+        font-size: 1.2rem;
+    }
+    
 }
