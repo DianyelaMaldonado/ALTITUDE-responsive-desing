@@ -260,10 +260,19 @@ h3.center.slimt__title {
     padding: 10px 20px 45px;
 }
 
+section.slimt__container.slimt__arrows {
+    background: var(--gray-body);
+}
+
 /** sed tempus aliquam section **/
 .sta__space {
     padding-bottom: 3%;
 }
+
+section.sta__container {
+    background: var(--gray-body);
+}
+
 .sta__title.center {
     margin: 0;
     font-size: 1.5rem;
@@ -314,3 +323,47 @@ a.sta__more-2 {
 .sta__text {
     padding: 20px;
 }
+
+/** get notified  section  **/
+.gn__title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--white);
+    padding-top: 12%;
+}
+
+.gn__wrapper {
+    background-color: var(--green-darken);
+}
+
+.gn__subtitle {
+    color: var(--white);
+}
+
+.gn__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+div input.gn__label.valign-wrapper {
+    width: 80%;
+    padding: 5%;
+    height: 1px;
+    font-size: 1rem;
+    margin-bottom: 4%;
+    border-radius: 31px;
+    background-color: white;
+}
+
+.gn__input {
+    width: 90%;
+    border: none;
+    height: 38px;
+    font-size: 0.9rem;
+    margin-bottom: 12%;
+    color: var(--white);
+    border-radius: 31px;
+    background-color: var(--soft-two-green);
+}
+
