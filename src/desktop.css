@@ -315,7 +315,7 @@
         flex-direction: row;
     }
 
-    div input.gn__label.valign-wrapper {
+    div input.gn__imp.valign-wrapper {
         width: 90%;
         height: 40px;
         padding: 0% 4%;
@@ -378,7 +378,7 @@
 
     .ftr__contact.center {
         display: flex;
-        margin-bottom: 6%;
+        margin-bottom: 1%;
         justify-content: center;
     }
 
