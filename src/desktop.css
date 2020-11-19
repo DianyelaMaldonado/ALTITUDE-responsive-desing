@@ -11,8 +11,8 @@
     }
 
     a.nav__sidenav_t.sidenav-trigger.show-on-large.right {
-        margin: 47px 0 0 0;
         font-size: 1.5rem;
+        margin: 47px 0 0 0;
     }
 
     .nav__outside {
@@ -301,7 +301,6 @@
     }
 
     /** get notified  section  **/
-
     .gn__wrapper {
         padding: 5% 28%;
     }
@@ -317,29 +316,79 @@
     }
 
     div input.gn__label.valign-wrapper {
-        padding: 0% 4%;
         width: 90%;
         height: 40px;
+        padding: 0% 4%;
         margin-bottom: 0;
         font-size: 1.2rem;
-        border-top-left-radius: 47px;
-        border-bottom-left-radius: 47px;
-        border-bottom-right-radius: 0;
         border-top-right-radius: 0;
+        border-top-left-radius: 47px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 47px;
     }
 
     .gn__input {
         width: 29%;
         height: 40px;
-        margin-bottom: 0;
         font-size: 1rem;
-        border-bottom-left-radius: 0;
+        margin-bottom: 0;
         border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     .gn__subtitle {
         margin-bottom: 8%;
         font-size: 1.2rem;
+    }
+
+      /** footer  **/
+      .ftr__container {
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .ftr__wrapper {
+        margin-top: 10%;
+    }
+
+    .col.s12.m6.l3.ftr__p0 {
+        padding: 0%;
+    }
+
+    .col.s12.m6.l3.ftr__p0.ftr__lines.ftr__l-1,
+    .col.s12.m6.l3.ftr__p0.ftr__l-2,
+    .col.s12.m6.l3.ftr__p0.ftr__lines.ftr__l-3 {
+        border-bottom: none;
+        border-right: 1px solid var(--line-gray);
+    } 
+
+    a.ftr__a.frt__bor-1,
+    a.ftr__a.frt__bor-2 {
+        border-bottom: none;
+    }
+
+    a.ftr__a.frt__bor-3.ftr__bor-t{
+        border-bottom: none;
+    }
+
+    .ftr__contact {
+        padding: 4% 5% 0%;
+    }
+
+    .ftr__contact.center {
+        display: flex;
+        margin-bottom: 6%;
+        justify-content: center;
+    }
+
+    .ftr__address,
+    .ftr__phone-c {
+        padding-right: 70px;
+    }
+
+    p.ftr__contacts.center {
+        margin-bottom: 6%;
     }
     
 }

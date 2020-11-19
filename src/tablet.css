@@ -27,10 +27,10 @@
 
     /** cards sed lorem and amet magna **/ 
     a.cs__more-1 {
-        border-radius: 22px;
         width: 34%;
         margin: 0 auto;
         box-shadow:none;
+        border-radius: 22px;
         background: var(--soft-two-green);
     }
 
@@ -120,16 +120,16 @@
         flex-direction: row;
     }
 
-  div input.gn__label.valign-wrapper {
-        padding: 0% 30px;
+    div input.gn__label.valign-wrapper {
         width: 90%;
         height: 50px;
         margin-bottom: 0;
+        padding: 0% 30px;
         font-size: 1.5rem;
-        border-top-left-radius: 47px;
-        border-bottom-left-radius: 47px;
-        border-bottom-right-radius: 0;
         border-top-right-radius: 0;
+        border-top-left-radius: 47px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 47px;
     }
 
     .gn__input {
@@ -137,14 +137,39 @@
         height: 50px;
         margin-bottom: 0;
         font-size: 1.1rem;
-        border-bottom-left-radius: 0;
         border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     .gn__subtitle {
-        margin-bottom: 10%;
         font-size: 1.2rem;
+        margin-bottom: 10%;
     }
-    
 
+    /** footer  **/
+    .ftr__container {
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .ftr__wrapper {
+        margin-top: 10%;
+    }
+
+    .col.s12.m6.l3.ftr__p0 {
+        padding: 0%;
+    }
+
+    .col.s12.m6.l3.ftr__lines {
+        border-right: 1px solid var(--line-gray);
+    }
+
+    a.ftr__a.frt__bor-3.ftr__bor-t{
+        border-bottom: none;
+    }
+
+    .ftr__contact {
+        padding: 4% 5% 6%;
+    }
 }

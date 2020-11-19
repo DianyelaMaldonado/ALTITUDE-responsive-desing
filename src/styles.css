@@ -23,6 +23,7 @@ html {
     --soft-green:#4ac4cbe0;
     --green-darken:#4CABB1;
     --soft-white:#ffffff55;
+    --soft-gray-text:#d6d6d6f5;
     --hover-soft-green:#50bdc4;
     --soft-two-green:#4ac4cb85;
     --soft-mustard-yellow:#FED586;
@@ -353,7 +354,7 @@ div input.gn__label.valign-wrapper {
     font-size: 1rem;
     margin-bottom: 4%;
     border-radius: 31px;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .gn__input {
@@ -366,4 +367,45 @@ div input.gn__label.valign-wrapper {
     border-radius: 31px;
     background-color: var(--soft-two-green);
 }
+
+/** footer  **/
+.ftr__col-title {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 10%;
+    color: var(--white);
+}
+
+.frt__col-wrapper {
+    display: flex;
+    margin-top: 4%;
+    line-height: 35px;
+    flex-direction: column;
+}
+
+.ftr__a {
+    font-size: 1.1rem;
+    color: var(--soft-gray-text);
+}
+
+.ftr__a.frt__bor-1,
+.ftr__a.frt__bor-2,
+.ftr__a.frt__bor-3 {
+    padding-bottom: 12%;
+    border-bottom: 1px solid var(--line-gray);
+}
+
+.ftr__a.ftr__b {
+    margin-bottom: 15%;
+}
+.ftr__contact {
+    padding: 0% 5% 11%;
+}
+
+.ftr__contacts {
+    font-size: 1.1rem;
+    color: var(--soft-gray-text);
+}
+
+
 
