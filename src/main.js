@@ -19,6 +19,7 @@ function slickSlider() {
       arrows:false,
       autoplay:true,
       autoplaySpeed:1000,
+      accessibility: true,
     }
   );
 }
@@ -31,6 +32,7 @@ function slimtSlick() {
       slidesToShow:1,
       prevArrow: $('.prev'),
       nextArrow: $('.next'),
+      accessibility: true,
       responsive: [
         {
           breakpoint: 10000000,
