@@ -49,6 +49,6 @@ https://dianyelamaldonado.github.io/ALTITUDE-responsive-desing/src/
 |                Variables de CSS                 |
 |                   Materialize                   |
 |                  Git & Github                   |
+|                 Metodología BEM                 |
 
-|Metodología BEM°
 El prototipo que implementé para la práctica lo saqué de: (https://pixelarity.com/)
